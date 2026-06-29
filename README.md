@@ -64,47 +64,6 @@ Ensures class ratio is preserved across all folds — reliable performance estim
 
 ---
 
-## 📁 Project Structure
-
-```
-disease-prediction-system/
-│
-├── Disease_Prediction_System.ipynb   ← Main notebook (run this)
-│
-├── outputs/
-│   ├── diabetes_eda_distributions.png
-│   ├── correlation_heatmaps.png
-│   ├── class_imbalance.png
-│   ├── smote_effect.png
-│   ├── roc_curves.png
-│   ├── confusion_matrices.png
-│   ├── feature_importance.png
-│   └── evaluation_dashboard.png
-│
-└── README.md
-```
-
----
-
-## ▶️ How to Run
-
-### Google Colab (Recommended — No Setup Needed)
-
-```
-1. Open Google Colab → colab.research.google.com
-2. File → Upload Notebook → select Disease_Prediction_System.ipynb
-3. Runtime → Run All
-4. Done ✅ — all plots auto-save and download as ZIP
-```
-
-### Local (Optional)
-```bash
-pip install xgboost imbalanced-learn scikit-learn pandas numpy matplotlib seaborn
-jupyter notebook Disease_Prediction_System.ipynb
-```
-
----
-
 ## 📈 Results
 
 ### 🩸 Diabetes Prediction
@@ -178,9 +137,6 @@ seaborn         0.12+
 ## 👩‍💻 Author
 
 **Maryam Saif**  
-MS Computer Science (Data Science) — University of Gujrat  
-AI/ML Engineering Intern  
-
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/your-profile)
 [![GitHub](https://img.shields.io/badge/GitHub-saifmaryam-black?style=flat&logo=github)](https://github.com/saifmaryam)
 [![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-maryam--cheema--ai-yellow?style=flat)](https://huggingface.co/maryam-cheema-ai)
